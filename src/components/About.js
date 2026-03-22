@@ -21,11 +21,10 @@ class About extends React.Component {
       <p>
         I am currently a <b>Senior Software Engineer - ML & Infrastructure</b>{" "}
         at <a href="https://www.lumentum.com/">Lumentum</a>, where I build
-        production ML systems and LLM-powered agentic pipelines for optical
-        hardware. I hold a <b>Master's of Science in Computer Engineering</b>{" "}
+        production ML systems and LLM-powered agentic pipelines. I hold a <b>Master's of Science in Computer Engineering</b>{" "}
         from{" "}
         <a href="https://www.mcmaster.ca/">McMaster University</a> (GPA: 4.0),
-        and have published at OFC 2025 and ICSOS 2025.
+        and have published at <a href="https://icsos2025.ieee-icsos.org/program">ICSOS 2025</a>.
       </p>
     );
     const two = (
@@ -66,7 +65,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Hamed Akhlaghi" src={"/assets/me2.jpg"} />
+              <img alt="Hamed Akhlaghi" src={"/assets/m3.jpg"} />
             </div>
           </div>
         </FadeInSection>
